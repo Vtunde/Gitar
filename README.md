@@ -1,6 +1,5 @@
 # Gitar Projekt
 
-## Készítette: Gombos Benedek Zsombor, Váradi Tünde Virág
 Ez a projekt a mi gitáros projektünk fájlait tartalmazza. Készítettünk egy WPF-es verziót, amit a Visual Studio 2022-ben írtunk meg C# nyelven, és egy webes verziót, amit HTML, CSS és JavaScript nyelveken írtunk meg a Visual Studio Code-ban
 
 Egyes funkciók a WPF alkalmazásban:
