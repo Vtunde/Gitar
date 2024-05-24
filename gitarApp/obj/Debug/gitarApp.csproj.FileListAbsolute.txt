@@ -1,0 +1,15 @@
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.csproj.AssemblyReference.cache
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\MainWindow.g.cs
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\App.g.cs
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp_MarkupCompile.cache
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp_MarkupCompile.lref
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\bin\Debug\gitarApp.exe.config
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\bin\Debug\gitarApp.exe
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\bin\Debug\gitarApp.pdb
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\MainWindow.baml
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.g.resources
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.Properties.Resources.resources
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.csproj.GenerateResource.cache
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.csproj.CoreCompileInputs.cache
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.exe
+C:\Users\gomben397\OneDrive - BGSzC Pestszentlőrinci Technikum\_ROOT\_PROJECTS\Gitar projekt\gitarApp\gitarApp\obj\Debug\gitarApp.pdb

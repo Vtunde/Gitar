@@ -1,0 +1,31 @@
+﻿<Window x:Name="mainWindow" x:Class="gitarApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gitarApp"
+        mc:Ignorable="d"
+        Title="Guitar Tab Viewer" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+
+            <MenuItem Header="_Menu">
+                <MenuItem x:Name="openFile" Header="Tallózás"/>
+                <MenuItem Header="_Könnyű">
+
+                    <MenuItem Name="paranoid" Header="_Paranoid - Black Sabbath" Click="paranoid_Click"/>
+                    <MenuItem Name="sweet" Header="_Sweet Home Albama - Lynyrd Skynyrd " Click="sweet_Click"/>
+                    <MenuItem  Name="threelittle" Header="_Three Little Birds - Bob Marley and The Wailers" Click="three_Click"/>
+                </MenuItem>
+                <MenuItem Header="Betűtípusok">
+                    <MenuItem x:Name="consolas" Header="Consolas" FontFamily="Consolas" Click="consolas_Click"/>
+                    <MenuItem x:Name="cascadiamono" Header="Cascadia Mono" FontFamily="Cascadia Mono" Click="cascadiamono_Click"/>
+                    <MenuItem x:Name="cascadiamonosemibold" Header="Cascadia Mono SemiBold" FontFamily="Cascadia Mono SemiBold" Click="cascadiamonosemibold_Click"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ScrollViewer Margin="5 25 0 0">
+            <TextBlock x:Name="FilePathTextBlock" HorizontalAlignment="Left" TextWrapping="NoWrap" Text="Itt fog megjelenni a kotta, amikor megnyitod" VerticalAlignment="Top" FontFamily="Cascadia Mono SemiBold"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
