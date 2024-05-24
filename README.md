@@ -13,4 +13,7 @@ Egyes funkciók a weboldalon:
 - "Autoscroll" funkció, amivel az oldal saját magát görgeti lefelé
 - Sötét/világos téma alkalmazása az eszköz beállításaitól függően
 
-A webes verzió a `web` branchben, a WPF applikáció pedig a `main` branchben megtalálható
+A webes verzió a `web` branchben
+A WPF applikáció pedig a `main` branchben megtalálható, csak a `gitarApp` mappa és a `gitarApp.sln` a része a legfrissebb verziónak
+
+A `main` branchben található .zip file egy régebbi megvalósítás hagyatékai, és nem része a jelenlegi verziónak
