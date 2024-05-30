@@ -46,7 +46,7 @@ a{
 
 .list-a:hover{
     background-color: var(--accent);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .list > p{
