@@ -1,8 +1,14 @@
 ﻿using Microsoft.Win32;
+using System;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media;
+using System.Threading.Tasks;
+using System.Windows.Threading;
+using System.Windows.Input;
+using System.Data.Common;
 
 namespace gitarApp
 {
@@ -11,10 +17,16 @@ namespace gitarApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool isScrolling = false;
+        private DispatcherTimer scrollTimer;
         public MainWindow()
         {
             InitializeComponent();
+            scrollTimer = new DispatcherTimer();
+            scrollTimer.Interval = TimeSpan.FromMilliseconds(50); // Állítsd be a kívánt sebességet
+            scrollTimer.Tick += ScrollTimer_Tick;
         }
+
 
         private void paranoid_Click(object sender, RoutedEventArgs e)
         {
@@ -68,6 +80,49 @@ namespace gitarApp
         {
             FilePathTextBlock.FontFamily = new FontFamily("Cascadia Mono SemiBold");
         }
+
+
+        private void ScrollTimer_Tick(object sender, EventArgs e)
+        {
+            if (myScrollViewer.VerticalOffset < myScrollViewer.ScrollableHeight)
+            {
+                myScrollViewer.ScrollToVerticalOffset(myScrollViewer.VerticalOffset + 1);
+            }
+            else
+            {
+                scrollTimer.Stop(); // Állítsd le a scrollt, ha elérted az alját
+                isScrolling = false;
+            }
+        }
+
+        private void autoscroll_Click(object sender, RoutedEventArgs e)
+        {
+            if (isScrolling)
+            {
+                scrollTimer.Stop();
+                isScrolling = false;
+            }
+            else
+            {
+                scrollTimer.Start();
+                isScrolling = true;
+            }
+        }
+        int defaultFontSize = 12;
+        private void increaseFontSizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePathTextBlock.FontSize++;
+        }
+        private void defaultFontSizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePathTextBlock.FontSize = defaultFontSize;
+        }
+
+        private void decreaseFontSizeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            FilePathTextBlock.FontSize--;
+        }
+
     }
 }
 

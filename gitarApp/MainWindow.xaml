@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:gitarApp"
         mc:Ignorable="d"
-        Title="Guitar Tab Viewer" Height="450" Width="800">
+        Title="Guitar Tab Viewer" Height="450" Width="800" ResizeMode="CanMinimize">
     <Grid>
         <Menu Height="25" VerticalAlignment="Top">
 
@@ -17,15 +17,21 @@
                     <MenuItem Name="sweet" Header="_Sweet Home Albama - Lynyrd Skynyrd " Click="sweet_Click"/>
                     <MenuItem  Name="threelittle" Header="_Three Little Birds - Bob Marley and The Wailers" Click="three_Click"/>
                 </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Betű">
+                <MenuItem x:Name="increaseFontSizeBtn" Header="Méret növelés" Click="increaseFontSizeBtn_Click"/>
+                <MenuItem x:Name="defaultFontSizeBtn" Header="Méret alaphelyzetbe állítása" Click="defaultFontSizeBtn_Click"/>
+                <MenuItem x:Name="decreaseFontSizeBtn" Header="Méret csökkentés" Click="decreaseFontSizeBtn_Click"/>
                 <MenuItem Header="Betűtípusok">
                     <MenuItem x:Name="consolas" Header="Consolas" FontFamily="Consolas" Click="consolas_Click"/>
                     <MenuItem x:Name="cascadiamono" Header="Cascadia Mono" FontFamily="Cascadia Mono" Click="cascadiamono_Click"/>
                     <MenuItem x:Name="cascadiamonosemibold" Header="Cascadia Mono SemiBold" FontFamily="Cascadia Mono SemiBold" Click="cascadiamonosemibold_Click"/>
                 </MenuItem>
             </MenuItem>
+            <MenuItem x:Name="autoscroll" Header="AutoScroll" Click="autoscroll_Click" />
         </Menu>
-        <ScrollViewer Margin="5 25 0 0">
-            <TextBlock x:Name="FilePathTextBlock" HorizontalAlignment="Left" TextWrapping="NoWrap" Text="Itt fog megjelenni a kotta, amikor megnyitod" VerticalAlignment="Top" FontFamily="Cascadia Mono SemiBold"/>
+        <ScrollViewer x:Name="myScrollViewer" Margin="5 25 0 0">
+            <TextBlock x:Name="FilePathTextBlock" HorizontalAlignment="Left" TextWrapping="NoWrap" Text="Itt fog megjelenni a kotta, amikor megnyitod" VerticalAlignment="Top" FontFamily="Cascadia Mono SemiBold" FontSize="12"/>
         </ScrollViewer>
     </Grid>
 </Window>
