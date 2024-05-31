@@ -3,12 +3,8 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media;
-using System.Threading.Tasks;
 using System.Windows.Threading;
-using System.Windows.Input;
-using System.Data.Common;
 
 namespace gitarApp
 {

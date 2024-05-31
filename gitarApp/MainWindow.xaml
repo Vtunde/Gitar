@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:gitarApp"
         mc:Ignorable="d"
-        Title="Guitar Tab Viewer" Height="450" Width="800" ResizeMode="CanMinimize">
+        Title="Guitar Tab Viewer" Height="450" Width="800">
     <Grid>
         <Menu Height="25" VerticalAlignment="Top">
 
             <MenuItem Header="_Menu">
-                <MenuItem x:Name="openFile" Header="Tallózás"/>
+                <MenuItem x:Name="openFile" Header="Tallózás" Click="openFile_Click"/>
                 <MenuItem Header="_Könnyű">
 
                     <MenuItem Name="paranoid" Header="_Paranoid - Black Sabbath" Click="paranoid_Click"/>
